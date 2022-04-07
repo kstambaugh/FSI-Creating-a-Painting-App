@@ -5,6 +5,7 @@ body {
 .palette {
     float: left;
     width: 10vmin;
+    
 }
 
 .painting {
@@ -38,4 +39,7 @@ body {
 }
 #green {
     color: green;
+}
+#purple {
+    color: purple;
 }
