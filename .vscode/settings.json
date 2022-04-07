@@ -1,0 +1,6 @@
+{
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "javascript.suggest.classMemberSnippets.enabled": true,
+    "editor.snippetSuggestions": "none"
+}

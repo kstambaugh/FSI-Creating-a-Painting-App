@@ -24,11 +24,11 @@ const clearButton = document.createElement("clear-button");
 clearButton.textContent = "Clear";
 document.querySelector('body').appendChild(clearButton);
 
-let pixels = document.querySelectorAll(".pixel")
-
 
 //turns all of the pixels in the paint app white;
-clearButton.addEventListener('click', function(){
-      
-});
-
+clearButton.addEventListener("click", function(){
+    pixels = document.getElementsByClassName('.pixels');
+    for (let i = 0; i < pixels.length; i++){
+        pixels[i].style.backgroundColor="white"
+    }
+})
